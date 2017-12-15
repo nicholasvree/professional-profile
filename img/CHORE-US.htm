@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<!-- saved from url=(0026)http://localhost:8080/home -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CHORE-US</title>
+  <link rel="stylesheet" href="./CHORE-US_files/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous">
+  <link href="./CHORE-US_files/css" rel="stylesheet">
+  <!-- Bulma Version 0.6.0 -->
+  <link rel="stylesheet" href="./CHORE-US_files/bulma.min.css" integrity="sha256-HEtF7HLJZSC3Le1HcsWbz1hDYFPZCqDhZa9QsCgVUdw=" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" type="text/css" href="css/admin.css"> -->
+</head>
+
+<body id="grad">
+  <!-- START NAV -->
+  <nav class="navbar is-black">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item brand-text" href="http://localhost:8080/home">
+          CHORE-US
+        </a>
+        <div class="navbar-burger burger" data-target="navMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div id="navMenu" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="http://localhost:8080/groups">
+            Groups
+          </a>
+          <a class="navbar-item" id="my-tasks">
+            My Tasks
+          </a>
+          <a class="navbar-item" href="http://localhost:8080/add">
+            Add Task
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- END NAV -->
+  <div class="container">
+
+     <div class="column">
+  <section class="hero is-info welcome is-small">
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title main">
+                Hello, Roomie.
+              </h1>
+            <h2 class="subtitle main">
+                Create or Sign up for chores below.
+              </h2>
+          </div>
+        </div>
+      </section>
+      <br>
+      <div class="columns">
+        <div class="column is-4">
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                Leaderboard
+              </p>
+            </header>
+            <div class="card-table">
+              <div class="content">
+                <table class="table is-fullwidth is-striped">
+                  <tbody>
+                    <tr><th> Roomie </th>
+                    <th> Total Points </th>
+                      </tr><tr>
+                        <td>Kaitlin  </td>
+                        <td> 46 </td>
+                      </tr>
+                      <tr>
+                        <td>Max  </td>
+                        <td> 28 </td>
+                      </tr>
+                      <tr>
+                        <td>Edge  </td>
+                        <td> 24 </td>
+                      </tr>
+                      <tr>
+                        <td>Nick  </td>
+                        <td> 20 </td>
+                      </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+        </div>
+      </div>
+        <div class="column is-4">
+          <div class="card events-card">
+            <header class="card-header">
+              <p class="card-header-title">
+                Assigned Chores
+              </p>
+            </header>
+            <div class="card-table">
+              <div class="content">
+                <table class="table is-fullwidth is-striped">
+                  <tbody>
+                    <tr><th> Task </th>
+                    <th> Assignee </th>
+                          </tr><tr>
+                     <td>Claimed Incomplete1 </td>
+                          <td> Kaitlin </td>
+                            <td><a id="5" class="complete-btn" "button="" is-small="" is-danger"="" href="http://localhost:8080/home#">Incomplete</a></td>
+                      </tr>
+                          <tr>
+                     <td>Claimed Incomplete2 </td>
+                          <td> Kaitlin </td>
+                            <td><a id="6" class="complete-btn" "button="" is-small="" is-danger"="" href="http://localhost:8080/home#">Incomplete</a></td>
+                      </tr>
+                          <tr>
+                     <td>Claimed Complete 1 </td>
+                          <td> Kaitlin </td>
+                            <td><a id="7" class="complete-btn" "button="" is-small="" is-primary"="" href="http://localhost:8080/home#">Complete</a></td>
+                      </tr>
+                          <tr>
+                     <td>Claimed Complete2 </td>
+                          <td> Kaitlin </td>
+                            <td><a id="8" class="complete-btn" "button="" is-small="" is-primary"="" href="http://localhost:8080/home#">Complete</a></td>
+                      </tr>
+                          <tr>
+                     <td>Claimed complete3 </td>
+                          <td> Kaitlin </td>
+                            <td><a id="9" class="complete-btn" "button="" is-small="" is-primary"="" href="http://localhost:8080/home#">Complete</a></td>
+                      </tr>
+                          <tr>
+                     <td>Claimed complete4 </td>
+                          <td> Kaitlin </td>
+                            <td><a id="10" class="complete-btn" "button="" is-small="" is-primary"="" href="http://localhost:8080/home#">Complete</a></td>
+                      </tr>
+                          <tr>
+                     <td>Claimed Incomplete1 </td>
+                          <td> Max </td>
+                            <td><a id="11" class="complete-btn" "button="" is-small="" is-danger"="" href="http://localhost:8080/home#">Incomplete</a></td>
+                      </tr>
+                          <tr>
+                     <td>Claimed Incomplete2 </td>
+                          <td> Max </td>
+                            <td><a id="12" class="complete-btn" "button="" is-small="" is-danger"="" href="http://localhost:8080/home#">Incomplete</a></td>
+                      </tr>
+                          <tr>
+                     <td>Claimed Complete 1 </td>
+                          <td> Max </td>
+                            <td><a id="13" class="complete-btn" "button="" is-small="" is-primary"="" href="http://localhost:8080/home#">Complete</a></td>
+                      </tr>
+                          <tr>
+                     <td>Claimed Complete2 </td>
+                          <td> Max </td>
+                            <td><a id="14" class="complete-btn" "button="" is-small="" is-primary"="" href="http://localhost:8080/home#">Complete</a></td>
+                      </tr>
+                          <tr>
+                     <td>Claimed complete3 </td>
+                          <td> Max </td>
+                            <td><a id="15" class="complete-btn" "button="" is-small="" is-primary"="" href="http://localhost:8080/home#">Complete</a></td>
+                      </tr>
+                          <tr>
+                     <td>Claimed complete4 </td>
+                          <td> Max </td>
+                            <td><a id="16" class="complete-btn" "button="" is-small="" is-primary"="" href="http://localhost:8080/home#">Complete</a></td>
+                      </tr>
+                          <tr>
+                     <td>Claimed Complete 1 </td>
+                          <td> Edge </td>
+                            <td><a id="17" class="complete-btn" "button="" is-small="" is-primary"="" href="http://localhost:8080/home#">Complete</a></td>
+                      </tr>
+                          <tr>
+                     <td>Claimed Complete2 </td>
+                          <td> Edge </td>
+                            <td><a id="18" class="complete-btn" "button="" is-small="" is-primary"="" href="http://localhost:8080/home#">Complete</a></td>
+                      </tr>
+                          <tr>
+                     <td>Claimed complete3 </td>
+                          <td> Edge </td>
+                            <td><a id="19" class="complete-btn" "button="" is-small="" is-primary"="" href="http://localhost:8080/home#">Complete</a></td>
+                      </tr>
+                          <tr>
+                     <td>Claimed complete4 </td>
+                          <td> Edge </td>
+                            <td><a id="20" class="complete-btn" "button="" is-small="" is-primary"="" href="http://localhost:8080/home#">Complete</a></td>
+                      </tr>
+                          <tr>
+                     <td>Claimed Complete 1 </td>
+                          <td> Nick </td>
+                            <td><a id="21" class="complete-btn" "button="" is-small="" is-primary"="" href="http://localhost:8080/home#">Complete</a></td>
+                      </tr>
+                          <tr>
+                     <td>Claimed Complete2 </td>
+                          <td> Nick </td>
+                            <td><a id="22" class="complete-btn" "button="" is-small="" is-primary"="" href="http://localhost:8080/home#">Complete</a></td>
+                      </tr>
+                          <tr>
+                     <td>Claimed complete3 </td>
+                          <td> Nick </td>
+                            <td><a id="23" class="complete-btn" "button="" is-small="" is-primary"="" href="http://localhost:8080/home#">Complete</a></td>
+                      </tr>
+                          <tr>
+                     <td>Claimed complete4 </td>
+                          <td> Nick </td>
+                            <td><a id="24" class="complete-btn" "button="" is-small="" is-primary"="" href="http://localhost:8080/home#">Complete</a></td>
+                      </tr>
+                          <tr>
+                     <td>unclaimed1 </td>
+                          <td>  </td>
+                            <td><a id="1" class="complete-btn" "button="" is-small="" is-danger"="" href="http://localhost:8080/home#">Incomplete</a></td>
+                      </tr>
+                          <tr>
+                     <td>unclaimed2 </td>
+                          <td>  </td>
+                            <td><a id="2" class="complete-btn" "button="" is-small="" is-danger"="" href="http://localhost:8080/home#">Incomplete</a></td>
+                      </tr>
+                      
+                      
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+                <div class="column is-4">
+          <div class="card events-card">
+            <header class="card-header">
+              <p class="card-header-title">
+                Unassigned Chores
+              </p>
+            </header>
+            <div class="card-table">
+              <div class="content">
+                <table class="table is-fullwidth is-striped">
+                  <tbody>
+                    <tr><th> Task </th>
+                    <th> Points </th>
+                    <th> Due Date </th>
+                      </tr><tr>
+                      </tr>
+                      <tr>
+                      </tr>
+                      <tr>
+                      </tr>
+                      <tr>
+                      </tr>
+                      <tr>
+                      </tr>
+                      <tr>
+                      </tr>
+                      <tr>
+                      </tr>
+                      <tr>
+                      </tr>
+                      <tr>
+                      </tr>
+                      <tr>
+                      </tr>
+                      <tr>
+                      </tr>
+                      <tr>
+                      </tr>
+                      <tr>
+                      </tr>
+                      <tr>
+                      </tr>
+                      <tr>
+                      </tr>
+                      <tr>
+                      </tr>
+                      <tr>
+                      </tr>
+                      <tr>
+                      </tr>
+                      <tr>
+                      </tr>
+                      <tr>
+                      </tr>
+                      <tr>
+                      </tr>
+                      <tr>
+                      </tr>
+                      <tr>
+                          <td>unclaimed3</td>
+                          <td>7</td>
+                          <td>Tue Jan 03 2017 00:00:00 GMT-0600 (CST)</td>
+                            <td><a id="3" class="claim_button button is-small is-info" href="http://localhost:8080/home#">Claim</a></td>
+                      </tr>
+                      <tr>
+                          <td>unclaimed4</td>
+                          <td>11</td>
+                          <td>Wed Jan 04 2017 00:00:00 GMT-0600 (CST)</td>
+                            <td><a id="4" class="claim_button button is-small is-info" href="http://localhost:8080/home#">Claim</a></td>
+                      </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+  </div>
+  <script src="./CHORE-US_files/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+ 
+  <script type="text/javascript" src="./CHORE-US_files/api.js"></script>
+
+  
+
+</div></div></body></html>
