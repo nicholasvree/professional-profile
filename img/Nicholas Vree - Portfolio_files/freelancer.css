@@ -75,8 +75,7 @@ section {
 
 section.success {
   color: white;
-  background-image: url('https://i.stack.imgur.com/pMAiU.jpgg');
-  background-size:cover ; }
+  background: #919191; }
 
 @media (max-width: 767px) {
   section {
@@ -164,8 +163,7 @@ header.masthead {
   padding-bottom: 50px;
   text-align: center;
   color: white;
-  background-image: url('https://i.stack.imgur.com/pMAiU.jpgg');
-  background-size:cover }
+  background: #919191; }
   header.masthead img {
     display: block;
     margin: 0 auto 20px; }
@@ -454,13 +452,12 @@ footer {
 #special_note{
   margin: 20px;
   padding: 15px;
-  background-color: #CD594A;
+  background-color:  #c9b294;
   text-align: left;
   border-radius:10px;
   border-color: black;
 }
 
-.test123å{
-  /* background-color:purple; */
-  background-image: url('https://media.licdn.com/media/AAEAAQAAAAAAAA0nAAAAJDNlOGJjZjA0LTM1NzUtNDMyOC1hYTk5LTgwOTI1ZGEyNGRiZA.jpg')
+.intro-text{
+  background-image: url('img/redtile.png')
 }
